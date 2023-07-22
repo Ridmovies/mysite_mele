@@ -45,6 +45,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+SITE_ID = 1
 
 # Application definition
 
@@ -58,6 +59,9 @@ INSTALLED_APPS = [
 
     'blog',
     'taggit',
+
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 
 ]
 
